@@ -1,0 +1,1 @@
+export {CustomerImplements} from "./createCustomer"

@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./backend/core"
+    },
+    {
+      "path": "./backend/models"
+
+    },
+    {
+      "path": "./backed/api"
+    }
+  ]
+}
