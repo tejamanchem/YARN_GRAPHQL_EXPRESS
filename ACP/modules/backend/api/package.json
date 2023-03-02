@@ -1,0 +1,19 @@
+{
+  "name": "@Acp/backend-api-module",
+  "packageManager": "yarn@3.2.3",
+  "version": "1.0.0",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn tsc -b",
+    "pack-module": "yarn pack"
+  },
+  "dependencies": {
+    "@Acp/backend-core-module": "workspace:modules/backend/core",
+    "@Acp/backend-models-module": "workspace:modules/backend/models",
+    "dataloader": "^2.2.2",
+    "type-graphql": "^1.1.1",
+    "typeorm-typedi-extensions": "^0.4.1"
+  }
+}

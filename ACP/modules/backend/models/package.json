@@ -1,0 +1,16 @@
+{
+  "name": "@Acp/backend-models-module",
+  "packageManager": "yarn@3.2.3",
+  "version": "1.0.0",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn tsc -b",
+    "pack-module": "yarn pack"
+  },
+  "dependencies": {
+    "typeorm": "^0.3.10",
+    "typeorm-seeding": "^1.6.1"
+  }
+}
